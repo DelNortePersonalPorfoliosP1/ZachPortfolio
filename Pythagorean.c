@@ -6,6 +6,8 @@
 //  Copyright © 2019 Sutherland, Zachary. All rights reserved.
 //
 
+#include "Pythagorean.h"
+
 void pythagorean() {
     double xvalue=0,yvalue=0,zvalue=0;
     printf ("ask for xvalue");

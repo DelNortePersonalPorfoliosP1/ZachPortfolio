@@ -6,9 +6,9 @@
 //  Copyright © 2019 Sutherland, Zachary. All rights reserved.
 //
 
-#include "Pythagorean.h"
+#include "Rectangle.h"
 
 int main(int argc, const char * argv[]) {
-    pythagorean();
+    rectangle();
     return 0;
 }
