@@ -9,6 +9,10 @@
 #include "Rectangle.h"
 
 int main(int argc, const char * argv[]) {
-    rectangle();
+    Rectangle();
+    
+    //testing one two three
     return 0;
+    
+    
 }
