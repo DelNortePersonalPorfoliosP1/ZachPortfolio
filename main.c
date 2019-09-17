@@ -6,13 +6,13 @@
 //  Copyright © 2019 Sutherland, Zachary. All rights reserved.
 //
 
-#include "Rectangle.h"
+#include "Rectangle.c"
+#include "Pythagorean.c"
 
-int main(int argc, const char * argv[]) {
-    Rectangle();
+
     
-    //testing one two three
-    return 0;
+    //testing one two three four
     
     
-}
+    
+
