@@ -11,5 +11,5 @@
 
 #include <stdio.h>
 #include <math.h>
-void pythagorean();
+int pythagorean(void);
 #endif /* Pythagorean_h */

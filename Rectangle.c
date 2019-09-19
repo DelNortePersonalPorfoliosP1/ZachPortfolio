@@ -8,7 +8,7 @@
 
 #include "Rectangle.h"
 
-void rectangle() {
+int rectangle(void) {
     double width=0,length=0, perimeter=0, area=0;
     printf ("ask for width");
     scanf("%lf", &width);
@@ -20,7 +20,7 @@ void rectangle() {
     printf("%lf\n", perimeter);
     printf("area:");
     printf("%lf\n", area);
-
+    return 0;
 }
     
 

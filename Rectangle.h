@@ -10,5 +10,6 @@
 #define Rectangle_h
 
 #include <stdio.h>
+int rectangle(void);
 
 #endif /* Rectangle_h */

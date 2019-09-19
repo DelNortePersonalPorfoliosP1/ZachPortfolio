@@ -8,7 +8,7 @@
 
 #include "Pythagorean.h"
 
-void pythagorean() {
+int pythagorean(void) {
     double xvalue=0,yvalue=0,zvalue=0;
     printf ("ask for xvalue");
     scanf("%lf", &xvalue);

@@ -8,11 +8,29 @@
 
 #include "Rectangle.c"
 #include "Pythagorean.c"
+#include "IO.h"
+#include "sec calc.h"
+#include "temperature.h"
 
-
+int main(void) {
     
-    //testing one two three four
+    int lab;
+    int a = 1;
+    int b;
+    int l = 1;
     
+    while (a==1){
+        
+        
+        printf("choose lab by typing in a number 1-5");
+        scanf("%i",&lab);
+        
+        if (lab == 1){
+            pythagorean();
+        }
+        if (lab == 2){
+            rectangle();
+        }
     
-    
+    }
 

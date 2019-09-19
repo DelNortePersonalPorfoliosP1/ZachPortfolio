@@ -8,3 +8,4 @@
 
 #include "IO.h"
 #include <limits.h>
+int IO(void)
