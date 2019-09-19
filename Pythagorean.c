@@ -17,5 +17,5 @@ int pythagorean(void) {
     zvalue=(xvalue * xvalue)+(yvalue * yvalue);
     zvalue=sqrt(zvalue);
     printf("%lf\n", zvalue);
-    
+    return 0;
 }

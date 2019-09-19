@@ -6,10 +6,12 @@
 //  Copyright © 2019 Sutherland, Zachary. All rights reserved.
 //
 
-#include "Rectangle.c"
-#include "Pythagorean.c"
+#include "Rectangle.h"
+#include "Pythagorean.h"
 #include "IO.h"
-#include "sec calc.h"
+//#include "seccalc.h"
+int seccalc(void);
+
 #include "temperature.h"
 
 int main(void) {
@@ -33,4 +35,5 @@ int main(void) {
         }
     
     }
+}
 
