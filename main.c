@@ -18,8 +18,13 @@ int main(void) {
     
     while (a<6){
         
-        
-        printf("choose lab by typing in a number 1-5 or type 6 to exit");
+        printf("1 - Pythagorean\n");
+        printf("2 - Rectangle\n");
+        printf("3 - Seconds Calc\n");
+        printf("4 - Temperature\n");
+        printf("5 - IO\n");
+        printf("6 - Exit\n");
+        printf("Select 1-5 or type 6 to exit\n");
         scanf("%i",&lab);
         
         if (lab == 1){
