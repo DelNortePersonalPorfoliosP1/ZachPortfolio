@@ -10,7 +10,6 @@
 		A539A61E233525620028B6E3 /* seccalc.c in Sources */ = {isa = PBXBuildFile; fileRef = A539A61D233525620028B6E3 /* seccalc.c */; };
 		A5AF6A7C23280B2D00C677C0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A5AF6A7B23280B2D00C677C0 /* main.c */; };
 		A5AF6A8423280B5000C677C0 /* Pythagorean.c in Sources */ = {isa = PBXBuildFile; fileRef = A5AF6A8323280B5000C677C0 /* Pythagorean.c */; };
-		A5DB3C5C232FE17500801E95 /* Rectangle table.c in Sources */ = {isa = PBXBuildFile; fileRef = A5DB3C5B232FE17500801E95 /* Rectangle table.c */; };
 		A5DB3C5F232FE5C900801E95 /* IO.c in Sources */ = {isa = PBXBuildFile; fileRef = A5DB3C5E232FE5C900801E95 /* IO.c */; };
 		A5DB3C62232FE94900801E95 /* temperature.c in Sources */ = {isa = PBXBuildFile; fileRef = A5DB3C61232FE94900801E95 /* temperature.c */; };
 		A5FB5186232BF61F0051F077 /* Rectangle.c in Sources */ = {isa = PBXBuildFile; fileRef = A5FB5185232BF61F0051F077 /* Rectangle.c */; };
@@ -35,8 +34,6 @@
 		A5AF6A7B23280B2D00C677C0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		A5AF6A8223280B5000C677C0 /* Pythagorean.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pythagorean.h; sourceTree = "<group>"; };
 		A5AF6A8323280B5000C677C0 /* Pythagorean.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Pythagorean.c; sourceTree = "<group>"; };
-		A5DB3C5A232FE17500801E95 /* Rectangle table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rectangle table.h"; sourceTree = "<group>"; };
-		A5DB3C5B232FE17500801E95 /* Rectangle table.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Rectangle table.c"; sourceTree = "<group>"; };
 		A5DB3C5D232FE5C900801E95 /* IO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IO.h; sourceTree = "<group>"; };
 		A5DB3C5E232FE5C900801E95 /* IO.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = IO.c; sourceTree = "<group>"; };
 		A5DB3C60232FE94900801E95 /* temperature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = temperature.h; sourceTree = "<group>"; };
@@ -65,8 +62,6 @@
 				A5DB3C61232FE94900801E95 /* temperature.c */,
 				A5DB3C5D232FE5C900801E95 /* IO.h */,
 				A5DB3C5E232FE5C900801E95 /* IO.c */,
-				A5DB3C5A232FE17500801E95 /* Rectangle table.h */,
-				A5DB3C5B232FE17500801E95 /* Rectangle table.c */,
 				A5FB5184232BF61F0051F077 /* Rectangle.h */,
 				A5FB5185232BF61F0051F077 /* Rectangle.c */,
 				A5AF6A7923280B2D00C677C0 /* Products */,
@@ -154,7 +149,6 @@
 				A5DB3C5F232FE5C900801E95 /* IO.c in Sources */,
 				A539A61E233525620028B6E3 /* seccalc.c in Sources */,
 				A5FB5186232BF61F0051F077 /* Rectangle.c in Sources */,
-				A5DB3C5C232FE17500801E95 /* Rectangle table.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
