@@ -10,5 +10,7 @@
 #define IO_h
 
 #include <stdio.h>
+
 int IO(void);
+
 #endif /* IO_h */

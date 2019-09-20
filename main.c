@@ -8,23 +8,18 @@
 
 #include "Rectangle.h"
 #include "Pythagorean.h"
-#include "IO.h"
-//#include "seccalc.h"
-int seccalc(void);
+#include "seccalc.h"
 
-#include "temperature.h"
 
 int main(void) {
     
     int lab;
     int a = 1;
-    int b;
-    int l = 1;
     
-    while (a==1){
+    while (a<6){
         
         
-        printf("choose lab by typing in a number 1-5");
+        printf("choose lab by typing in a number 1-5 or type 6 to exit");
         scanf("%i",&lab);
         
         if (lab == 1){
@@ -33,6 +28,20 @@ int main(void) {
         if (lab == 2){
             rectangle();
         }
+        if (lab == 3){
+            seccalc();
+        }
+        if (lab == 4){
+            temperature();
+        }
+        if (lab == 5){
+            IO();
+            
+        }
+        if (lab == 6){
+            return 19;
+        }
+        
     
     }
 }

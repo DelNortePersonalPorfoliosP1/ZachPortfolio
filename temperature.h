@@ -10,5 +10,5 @@
 #define temperature_h
 
 #include <stdio.h>
-
+int temperature(void);
 #endif /* temperature_h */

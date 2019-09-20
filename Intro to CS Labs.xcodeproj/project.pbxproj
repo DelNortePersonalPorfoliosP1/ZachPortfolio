@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A539A61E233525620028B6E3 /* seccalc.c in Sources */ = {isa = PBXBuildFile; fileRef = A539A61D233525620028B6E3 /* seccalc.c */; };
 		A5AF6A7C23280B2D00C677C0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A5AF6A7B23280B2D00C677C0 /* main.c */; };
 		A5AF6A8423280B5000C677C0 /* Pythagorean.c in Sources */ = {isa = PBXBuildFile; fileRef = A5AF6A8323280B5000C677C0 /* Pythagorean.c */; };
 		A5DB3C5C232FE17500801E95 /* Rectangle table.c in Sources */ = {isa = PBXBuildFile; fileRef = A5DB3C5B232FE17500801E95 /* Rectangle table.c */; };
 		A5DB3C5F232FE5C900801E95 /* IO.c in Sources */ = {isa = PBXBuildFile; fileRef = A5DB3C5E232FE5C900801E95 /* IO.c */; };
 		A5DB3C62232FE94900801E95 /* temperature.c in Sources */ = {isa = PBXBuildFile; fileRef = A5DB3C61232FE94900801E95 /* temperature.c */; };
-		A5DB3C65232FE99800801E95 /* seccalc.c in Sources */ = {isa = PBXBuildFile; fileRef = A5DB3C64232FE99800801E95 /* seccalc.c */; };
 		A5FB5186232BF61F0051F077 /* Rectangle.c in Sources */ = {isa = PBXBuildFile; fileRef = A5FB5185232BF61F0051F077 /* Rectangle.c */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A539A61C233525620028B6E3 /* seccalc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = seccalc.h; sourceTree = "<group>"; };
+		A539A61D233525620028B6E3 /* seccalc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = seccalc.c; sourceTree = "<group>"; };
 		A5AF6A7823280B2D00C677C0 /* Intro to CS Labs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Intro to CS Labs"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5AF6A7B23280B2D00C677C0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		A5AF6A8223280B5000C677C0 /* Pythagorean.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pythagorean.h; sourceTree = "<group>"; };
@@ -39,7 +41,6 @@
 		A5DB3C5E232FE5C900801E95 /* IO.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = IO.c; sourceTree = "<group>"; };
 		A5DB3C60232FE94900801E95 /* temperature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = temperature.h; sourceTree = "<group>"; };
 		A5DB3C61232FE94900801E95 /* temperature.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = temperature.c; sourceTree = "<group>"; };
-		A5DB3C64232FE99800801E95 /* seccalc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = seccalc.c; sourceTree = "<group>"; };
 		A5FB5184232BF61F0051F077 /* Rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
 		A5FB5185232BF61F0051F077 /* Rectangle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Rectangle.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,7 +59,8 @@
 		A5AF6A6F23280B2D00C677C0 = {
 			isa = PBXGroup;
 			children = (
-				A5DB3C64232FE99800801E95 /* seccalc.c */,
+				A539A61C233525620028B6E3 /* seccalc.h */,
+				A539A61D233525620028B6E3 /* seccalc.c */,
 				A5DB3C60232FE94900801E95 /* temperature.h */,
 				A5DB3C61232FE94900801E95 /* temperature.c */,
 				A5DB3C5D232FE5C900801E95 /* IO.h */,
@@ -148,9 +150,9 @@
 			files = (
 				A5AF6A8423280B5000C677C0 /* Pythagorean.c in Sources */,
 				A5AF6A7C23280B2D00C677C0 /* main.c in Sources */,
-				A5DB3C65232FE99800801E95 /* seccalc.c in Sources */,
 				A5DB3C62232FE94900801E95 /* temperature.c in Sources */,
 				A5DB3C5F232FE5C900801E95 /* IO.c in Sources */,
+				A539A61E233525620028B6E3 /* seccalc.c in Sources */,
 				A5FB5186232BF61F0051F077 /* Rectangle.c in Sources */,
 				A5DB3C5C232FE17500801E95 /* Rectangle table.c in Sources */,
 			);
